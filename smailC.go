@@ -64,14 +64,16 @@ func main () {
 	email := writeEmail() // creates a struct Email
 	emailToSend := emailToString(email) // converts Email to a string so it can be sent
 	fmt.Fprint(c, emailToSend)
+	fmt.Print("Email sent!\n")
 
 	for {
 		stop, _ := bufio.NewReader(c).ReadString('\n')
 		if stop == "STOP\n" {
+			fmt.Println(".\n.\n.")
 			fmt.Println("Email received by the server")
-			fmt.Println("Exiting Sean's Mail Client!")
+			fmt.Println("Exiting Smail")
 			return
-		}
+		} // Quit the client if the server sends out ACK
 	}
 
 }

@@ -12,6 +12,8 @@ import (
 
 func displayEmail(e string) {
 
+	fmt.Println("You got a mail!\n")
+
 	info := strings.Split(e, "\n")
 
 	fmt.Println("To : " + info[0])
@@ -22,7 +24,7 @@ func displayEmail(e string) {
 
 	return
 
-} // This function displays the info of email received fro the client in an appropriate format
+} // This function displays the info of email received fro the client in appropriate format
 
 func main() {
 
@@ -55,11 +57,11 @@ func main() {
 		fmt.Print(err)
 	} // reads email sent from the client
 
-	displayEmail(message) // displays received email in an appropriate format
+	displayEmail(message) // displays received email in appropriate format
 	ACK := "STOP\n"
-	c.Write([]byte(ACK))
+	c.Write([]byte(ACK)) // sends the client ACK to signal the email is received
 
 	fmt.Println("")
-	fmt.Println("Exiting Sean's Mail Server!")
+	fmt.Println("Exiting Smail")
 
 }

@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1a904ff-616e-4e54-ae10-03fe4db05e16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smailC.go" beforeDir="false" afterPath="$PROJECT_DIR$/smailC.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smailS.go" beforeDir="false" afterPath="$PROJECT_DIR$/smailS.go" afterDir="false" />
-    </list>
+    <list default="true" id="d1a904ff-616e-4e54-ae10-03fe4db05e16" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
